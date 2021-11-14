@@ -19,7 +19,7 @@ sidebar: auto
  
 ## 技能/证书
  
-◎ **基础技能**：熟练掌握HTML、CSS、CSS3、HTML5、JavaScript、Ajax、MySql、ES6、了解echarts和pyecharts基本使用等。
+◎ **基础技能**：熟练掌握HTML、CSS、CSS3、Less、HTML5、JavaScript、Ajax、ES6、了解Element-Ul、echarts、 pyecharts、MySql等基本使用。
 
 
 
@@ -41,11 +41,9 @@ sidebar: auto
 
 ◎ **电商项目**
   
-  **技术栈**：Vue, Vue-Router , Axios , Webpack , git
+  **技术栈**：Vue、 Vue-Router、Axios、 Webpack、 git、Vuex
   
   **项目描述**：实现一个电商平台的基本使用，包含首页模块、分类模块、购物车模块、我的模块等，通过Axios请求数据接口并呈现在页面。首页访问频率高需要离开时需要留存状态采用keep-alive进行缓存，使用better-scroll使得移动端滑动更加顺滑，防止数据请求短时间请求过多采用vue-lazyload懒加载插件。针对不同手机类型的适配, 用了postcss-px-to-viewport插件,方便适配手机类型。
 ## 个人总结
-  本人敢于挑战自我，能吃苦耐劳，有较强的的学习能力。作为职的新人，我会热情对待工作，努力克服困难，勤奋学习新知识，可以实习半年及以上。
+  本人敢于挑战自我，能吃苦耐劳，有较强的的学习能力。作为职场上的新人，我会热情对待工作，努力克服困难，勤奋学习新知识，可以实习半年及以上。
 
-## 简历
-![An image](../.vuepress/public/assets/img/info.png)
