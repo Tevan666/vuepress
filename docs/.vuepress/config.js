@@ -29,6 +29,9 @@ module.exports = {
         items: [
           { text: 'less', link: '/about/less' },
           { text: 'element-ui', link: '/about/element-ui' },
+          { text: '浏览器原理与实践', link: '/about/browser' },
+          { text: 'JavaScript中的宏任务与微任务', link: '/about/JavaScript_task' },
+          { text: 'webpack优化方案', link: '/about/webpack' },
         ],
         sidebar: [
           '/',
@@ -41,6 +44,7 @@ module.exports = {
         ariaLabel: 'frame',
         items: [
           { text: 'angularJS', link: '/about/angular' },
+          { text: 'Dva', link: '/about/Dva' },
         ],
         sidebar: [
           '/',
@@ -64,7 +68,7 @@ module.exports = {
       { text: 'About me', 
         ariaLabel: 'about me',
         items: [
-          { text: '我的简历', link: '/about/' },
+          { text: '我的简历', link: '/about/myself' },
           { text: '我的项目', link: '/about/about2' }
         ],
         sidebar: [

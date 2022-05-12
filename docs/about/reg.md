@@ -145,7 +145,27 @@ var reg = /pattern/flags
 
 var reg = new RegExp(pattern,flags);  
 
-☆pattern:正则表达式      flags:标识(修饰符)    
+☆pattern:正则表达式      flags:标识(修饰符)
+
+**字面量创建方式和构造函数创建方式的区别**
+
+1. 字面量创建方式不能进行字符串拼接，实例创建方式可以
+
+```
+var regParam = 'cm';
+var reg1 = new RegExp(regParam+'1');
+var reg2 = /regParam/;
+console.log(reg1);  //   /cm1/
+console.log(reg2);  //  /regParam/
+```
+
+1. 字面量创建方式特殊含义的字符不需要转义，实例创建方式需要转义
+
+```
+var reg1 = new RegExp('\d');  //    /d/ 
+var reg2 = new RegExp('\\d')  //   /\d/
+var reg3 = /\d/;              //  /\d/
+```
 
 标识主要包括：    
 
@@ -155,7 +175,11 @@ var reg = new RegExp(pattern,flags);
 
 3️⃣.g 全局匹配 模式应用于所有字符串，而非在找到第一个匹配项时停止
 
+4️⃣.s  允许 `.` 匹配换行符。
 
+5️⃣.u  使用unicode码的模式进行匹配。
+
+6️⃣.y  执行“粘性(`sticky`)”搜索,匹配从目标字符串的当前位置开始。
 
 ## JS中的元字符
 
