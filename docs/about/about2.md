@@ -4,49 +4,36 @@ sidebar: auto
 ---
 
 
-## 电商项目
-  ### 技术栈：Vue、 Vue-Router、 Axios、 Webpack、 git
+## 基于Flask及React搭建的物体分类可视化平台（毕业设计）
+  ### 技术栈：React、UmiJS、Recoil、Ant Design、Ant Design Pro、Ant Design Charts、Tailwind CSS。
   ### 项目描述：
-  实现一个电商平台的基本使用，包含首页模块、分类模块、购物车模块、我的模块等，通过Axios请求数据接口并呈现在页面。首页访问频率高需要离开时需要留存状态采用keep-alive进行缓存，使用better-scroll可以使得移动端滑动更加顺滑，防止数据请求短时间请求过多采用vue-lazyload懒加载插件。针对不同手机类型的适配, 用了postcss-px-to-viewport插件,方便适配手机类型。
-
+  本平台是为集成了动物分类、植物分类、物体分类、目标追踪等功能的一站式可视化平台。通过数据驱动可视化将数据变为可互动的各类图，让人们更能透过数据看清趋势。
 ### 项目展示
 
 ### 首页
-<img :src="$withBase('/assets/img/mall1.png')" alt="foo" style="width: 200px; height:400px;">
-<img :src="$withBase('/assets/img/mall2.png')" alt="foo" style="width: 200px; height:400px;">
-<img :src="$withBase('/assets/img/mall3.png')" alt="foo" style="width: 200px; height:400px;">
+<img :src="$withBase('/assets/img/login.png')" alt="foo" style="width: 1200px; height:600px;">
+<img :src="$withBase('/assets/img/image1.png')" alt="foo" style="width: 1200px; height:600px;">
+<img :src="$withBase('/assets/img/image2.png')" alt="foo" style="width: 1200px; height:600px;">
+<img :src="$withBase('/assets/img/image3.png')" alt="foo" style="width: 1200px; height:600px;">
 
 ### 详情页
-<img :src="$withBase('/assets/img/detail1.png')" alt="foo" style="width: 200px; height:400px;">
-<img :src="$withBase('/assets/img/detail2.png')" alt="foo" style="width: 200px; height:400px;">
-<img :src="$withBase('/assets/img/detail3.png')" alt="foo" style="width: 200px; height:400px;">
-<img :src="$withBase('/assets/img/detail4.png')" alt="foo" style="width: 200px; height:400px;">
+<img :src="$withBase('/assets/img/image4.png')" alt="foo" style="width: 1200px; height:600px;">
+<img :src="$withBase('/assets/img/image5.png')" alt="foo" style="width: 1200px; height:600px;">
+<img :src="$withBase('/assets/img/image6.png')" alt="foo" style="width: 1200px; height:600px;">
+<img :src="$withBase('/assets/img/image7.png')" alt="foo" style="width: 1200px; height:600px;">
 
 ### 分类
-<img :src="$withBase('/assets/img/category1.png')" alt="foo" style="width: 200px; height:400px;">
-<img :src="$withBase('/assets/img/category2.png')" alt="foo" style="width: 200px; height:400px;">
+<img :src="$withBase('/assets/img/image8.png')" alt="foo" style="width: 1200px; height:600px;">
+<img :src="$withBase('/assets/img/image9.png')" alt="foo" style="width: 1200px; height:600px;">
 
 ### 购物车
-<img :src="$withBase('/assets/img/cart.png')" alt="foo" style="width: 200px; height:400px;">
+<img :src="$withBase('/assets/img/image13.png')" alt="foo" style="width: 1200px; height:600px;">
 
 ### 我的
-<img :src="$withBase('/assets/img/profile.png')" alt="foo" style="width: 200px; height:400px;">
-<img :src="$withBase('/assets/img/profile2.png')" alt="foo" style="width: 200px; height:400px;">
-<img :src="$withBase('/assets/img/profile3.png')" alt="foo" style="width: 200px; height:400px;">
-<img :src="$withBase('/assets/img/profile4.png')" alt="foo" style="width: 200px; height:400px;">
-<img :src="$withBase('/assets/img/profile5.png')" alt="foo" style="width: 200px; height:400px;">
-
-## 基于Keras框架的目标检测web应用软件开发
-
-### 技术栈：html、JavaScript、ajax、Flask
-
-### 项目描述：
- 利用Python web搭建一个web服务器，并配置好接口页面，接受传过来的图片数据，后台程序调用封装好的垃圾分类模型，并返回分类结果给web前端，前端提交图片请求后，将通过服务器返 回的分类结果与图片显示在web页面中。
-### 首页
-<img :src="$withBase('/assets/img/web1.png')" alt="foo" style="width: 800px; height:400px;">
-
-### 选择文件
-<img :src="$withBase('/assets/img/web2.png')" alt="foo" style="width: 800px; height:400px;">
-
-### 得到请求后分类并将分类结果与图片显示在网页
-<img :src="$withBase('/assets/img/web3.png')" alt="foo" style="width: 800px; height:400px;">
+<img :src="$withBase('/assets/img/image10.png')" alt="foo" style="width: 1200px; height:600px;">
+<img :src="$withBase('/assets/img/image11.png')" alt="foo" style="width: 1200px; height:600px;">
+<img :src="$withBase('/assets/img/image12.png')" alt="foo" style="width: 1200px; height:600px;">
+<img :src="$withBase('/assets/img/image14.png')" alt="foo" style="width: 1200px; height:600px;">
+<img :src="$withBase('/assets/img/image15.png')" alt="foo" style="width: 1200px; height:600px;">
+<img :src="$withBase('/assets/img/image16.png')" alt="foo" style="width: 1200px; height:600px;">
+<img :src="$withBase('/assets/img/image17.png')" alt="foo" style="width: 1200px; height:600px;">

@@ -4,7 +4,7 @@ heroImage: /assets/img/home.jpg
 heroText: Tevan Y的小博客
 tagline: 记录项目、笔记
 actionText: 简历直达 →
-actionLink: /about/
+actionLink: /about/myself
 features:
 - title: 个人简历
   details: 一个广东技术师范大学软件工程专业的实习生。

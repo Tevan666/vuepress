@@ -19,31 +19,50 @@ sidebar: auto
  
 ## 技能/证书
  
-◎ **基础技能**：熟练掌握HTML、CSS、CSS3、Less、HTML5、JavaScript、Ajax、ES6、了解Element-Ul、echarts、 pyecharts、MySql等基本使用。
+◎ **基础技能**：熟练掌握HTML5、CSS3、Less、Tailwind CSS、JavaScript、Ajax、ES6，了解并使用过TypeScript开发。
 
+◎ **前端框架**：熟练使用React，了解使用过Angular及Vue2全家桶开发，熟练使用UmiJS，React状态管理库使用过DvaJS及Recoil。
 
+◎ **后端框架**：了解使用Flask+sqlalchemy+mysql进行后端开发。
 
-◎ **框架相关**：熟悉jQuery、vue、了解bootstrap。
+◎ **组件库**：熟练使用Ant Design、Ant Design Pro及Ant Design Charts，了解使用Element-Ul、ng-zorro、echarts、 pyecharts等组件库基本使用。
 
 ◎ **获奖/证书**：英语 CET-4
 
-◎ **工程化/后端**：了解Flask与NodeJs，熟练使用webpack、git。
+◎ **工程化**：熟练使用webpack，在实际项目做过产物优化以及UmiJS编译提速。熟练使用git版本管理工具。
 
-◎ **其他**：了解计算机网络、操作系统、数据结构、Linux系统基本使用。
+◎ **其他**：了解计算机网络、浏览器运行原理、正则表达式、数据结构及算法、Linux系统基本使用等。
 
-## 项目经历
+## 工作经历
+深圳某科技有限公司  2021-09 - 至今
+  ◎ **PaaS平台**
+    **前端技术栈**：React、Angular、TypeScript、UmiJS、Ant Design、Ant Design Pro、ng-zorro。
+    **项目描述**：建立面向城市用户的可运营、可运维统一平台系统，通过登录角色的不同配置不同权限。项目分为四个平台，三个为React项目，一个为Angular项目。
+      1.与后端沟通设计角色管理以及权限管理的实现，实现路由级别、组件级别的权限控制。
+      2.完成分步表单、分级表单等大量业务表单逻辑并对大部分表单进行组件化包装。
+      3. 根据后端返回的权限列表对没有权限的菜单进行隐藏，当没有权限时返回统一无权限页面。
+      4.分别在React以及Angular项目中实现当前路由是否有权限并跳转到下一个有权限页面功能。
+  ◎**API快速测试**
+    **技术栈**：React、UmiJS、TypeScript、 Recoil、 Ant Design。
+    **项目描述**：实现API测试的基本功能实现，包括Body、Header参数的传递，并支持根据历史记录进行回显请求参数。
+      1.采用Ant Design的Grid栅格对选择框布局，并根据不同屏幕尺寸显示不同选择框宽度。
+      2.支持将请求导出为JSON格式可以直接在Postman导入请求。
+      3.对四种类型的请求表单进行复杂逻辑交互控制。
+      4.通过navigator对象查询操作系统并设置Monaco Editor的换行格式。
+      5.使用Recoil状态管理库记录每次Body等参数更新后的state。
 
-◎ **基于Keras框架的目标检测web应用软件开发**
-  
-  **技术栈**：html、JavaScript、ajax、Flask
+  ## 项目经历
+  ◎**基于Flask及React搭建的物体分类可视化平台（毕业设计）**
+    **项目地址**：https://github.com/Tevan666/my-graduation
+    **前端技术栈**：React、UmiJS、Recoil、Ant Design、Ant Design Pro、Ant Design Charts、Tailwind CSS。
+    **后端技术栈**：Python、Flask、MySQL、OpenCV
+    **项目描述**：
+      1.项目总共十一个路由,包含登录模块、用户管理模块、商店模块及物体分类模块等。
+      2.注册可通过邮箱以及手机注册，邮箱实现可以发送验证码进行验证。登录采用token验证，通过后端得到token后。设置拦截器在请求头添加token信息，全局设置统一错误处理。
+      3.实现图片上传、视频上传以及图片与视频下载功能。大文件使用切片上传方式并实现断点续传。
+      4.使用Tailwind CSS书写布局及样式。
+      5.封装Ant Design Charts公共组件，传入数据及类型生成不同的图表。
+      6.使用React状态管理库Recoil实现商店加入购物车到购买一系列功能。
 
-  **项目描述**：利用Python web搭建一个web服务器，并配置好接口页面，接受传过来的图片数据，后台程序调用封装好的垃圾分类模型，并返回分类结果给web前端，前端提交图片请求后，将通过服务器返回的分类结果与图片显示在web页面中。
-
-◎ **电商项目**
-  
-  **技术栈**：Vue、 Vue-Router、Axios、 Webpack、 git、Vuex
-  
-  **项目描述**：实现一个电商平台的基本使用，包含首页模块、分类模块、购物车模块、我的模块等，通过Axios请求数据接口并呈现在页面。首页访问频率高需要离开时需要留存状态采用keep-alive进行缓存，使用better-scroll使得移动端滑动更加顺滑，防止数据请求短时间请求过多采用vue-lazyload懒加载插件。针对不同手机类型的适配, 用了postcss-px-to-viewport插件,方便适配手机类型。
-## 个人总结
-  本人敢于挑战自我，能吃苦耐劳，有较强的的学习能力。作为职场上的新人，我会热情对待工作，努力克服困难，勤奋学习新知识，可以实习半年及以上。
-
+  ## 个人总结
+    本人敢于挑战自我，能吃苦耐劳，有较强的学习能力。我会热情对待工作，努力克服困难，勤奋学习新知识。
