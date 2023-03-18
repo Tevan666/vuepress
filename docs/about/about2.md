@@ -12,8 +12,8 @@ sidebar: auto
 
 ### 首页
 <img :src="$withBase('/assets/img/login.png')" alt="foo" style="width: 1200px; height:300px;">
-<img :src="$withBase('/assets/img/image1.png')" alt="foo" style="width: 1200px; height:300px;">
-<img :src="$withBase('/assets/img/image2.png')" alt="foo" style="width: 1200px; height:300px;">
+<img :src="$withBase('/assets/img/image1.png')" alt="foo" style="width: 1200px; height:600px;">
+<img :src="$withBase('/assets/img/image2.png')" alt="foo" style="width: 1200px; height:600px;">
 <img :src="$withBase('/assets/img/image3.png')" alt="foo" style="width: 1200px; height:300px;">
 
 ### 详情页
@@ -30,7 +30,6 @@ sidebar: auto
 <img :src="$withBase('/assets/img/image13.png')" alt="foo" style="width: 1200px; height:300px;">
 
 ### 我的
-<img :src="$withBase('/assets/img/image10.png')" alt="foo" style="width: 1200px; height:300px;">
 <img :src="$withBase('/assets/img/image11.png')" alt="foo" style="width: 1200px; height:300px;">
 <img :src="$withBase('/assets/img/image12.png')" alt="foo" style="width: 1200px; height:300px;">
 <img :src="$withBase('/assets/img/image14.png')" alt="foo" style="width: 1200px; height:300px;">
