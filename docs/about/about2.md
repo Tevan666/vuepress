@@ -11,29 +11,29 @@ sidebar: auto
 ### 项目展示
 
 ### 首页
-<img :src="$withBase('/assets/img/login.png')" alt="foo" style="width: 1200px; height:600px;">
-<img :src="$withBase('/assets/img/image1.png')" alt="foo" style="width: 1200px; height:600px;">
-<img :src="$withBase('/assets/img/image2.png')" alt="foo" style="width: 1200px; height:600px;">
-<img :src="$withBase('/assets/img/image3.png')" alt="foo" style="width: 1200px; height:600px;">
+<img :src="$withBase('/assets/img/login.png')" alt="foo" style="width: 1200px; height:300px;">
+<img :src="$withBase('/assets/img/image1.png')" alt="foo" style="width: 1200px; height:300px;">
+<img :src="$withBase('/assets/img/image2.png')" alt="foo" style="width: 1200px; height:300px;">
+<img :src="$withBase('/assets/img/image3.png')" alt="foo" style="width: 1200px; height:300px;">
 
 ### 详情页
-<img :src="$withBase('/assets/img/image4.png')" alt="foo" style="width: 1200px; height:600px;">
-<img :src="$withBase('/assets/img/image5.png')" alt="foo" style="width: 1200px; height:600px;">
-<img :src="$withBase('/assets/img/image6.png')" alt="foo" style="width: 1200px; height:600px;">
-<img :src="$withBase('/assets/img/image7.png')" alt="foo" style="width: 1200px; height:600px;">
+<img :src="$withBase('/assets/img/image4.png')" alt="foo" style="width: 1200px; height:300px;">
+<img :src="$withBase('/assets/img/image5.png')" alt="foo" style="width: 1200px; height:300px;">
+<img :src="$withBase('/assets/img/image6.png')" alt="foo" style="width: 1200px; height:300px;">
+<img :src="$withBase('/assets/img/image7.png')" alt="foo" style="width: 1200px; height:300px;">
 
 ### 分类
-<img :src="$withBase('/assets/img/image8.png')" alt="foo" style="width: 1200px; height:600px;">
-<img :src="$withBase('/assets/img/image9.png')" alt="foo" style="width: 1200px; height:600px;">
+<img :src="$withBase('/assets/img/image8.png')" alt="foo" style="width: 1200px; height:300px;">
+<img :src="$withBase('/assets/img/image9.png')" alt="foo" style="width: 1200px; height:300px;">
 
 ### 购物车
-<img :src="$withBase('/assets/img/image13.png')" alt="foo" style="width: 1200px; height:600px;">
+<img :src="$withBase('/assets/img/image13.png')" alt="foo" style="width: 1200px; height:300px;">
 
 ### 我的
-<img :src="$withBase('/assets/img/image10.png')" alt="foo" style="width: 1200px; height:600px;">
-<img :src="$withBase('/assets/img/image11.png')" alt="foo" style="width: 1200px; height:600px;">
-<img :src="$withBase('/assets/img/image12.png')" alt="foo" style="width: 1200px; height:600px;">
-<img :src="$withBase('/assets/img/image14.png')" alt="foo" style="width: 1200px; height:600px;">
-<img :src="$withBase('/assets/img/image15.png')" alt="foo" style="width: 1200px; height:600px;">
-<img :src="$withBase('/assets/img/image16.png')" alt="foo" style="width: 1200px; height:600px;">
-<img :src="$withBase('/assets/img/image17.png')" alt="foo" style="width: 1200px; height:600px;">
+<img :src="$withBase('/assets/img/image10.png')" alt="foo" style="width: 1200px; height:300px;">
+<img :src="$withBase('/assets/img/image11.png')" alt="foo" style="width: 1200px; height:300px;">
+<img :src="$withBase('/assets/img/image12.png')" alt="foo" style="width: 1200px; height:300px;">
+<img :src="$withBase('/assets/img/image14.png')" alt="foo" style="width: 1200px; height:300px;">
+<img :src="$withBase('/assets/img/image15.png')" alt="foo" style="width: 1200px; height:300px;">
+<img :src="$withBase('/assets/img/image16.png')" alt="foo" style="width: 1200px; height:300px;">
+<img :src="$withBase('/assets/img/image17.png')" alt="foo" style="width: 1200px; height:300px;">
